@@ -12,22 +12,22 @@ Let's see what branches look like in practice.
 
 Here we will create a new branch named newImage.
 
->image
+<img src="task2.png" width="200" height="250"/>
 
 $> git branch newImage
 
->image
+<img src="task2_2.png" width="200" height="250"/>
 
 $> git commit
 
->image
+<img src="task2_3.png" width="200" height="250"/>
 
 Oh no! The main branch moved but the newImage branch didn't! That's because we weren't "on" the new branch, which is why the asterisk (*) was on main.
 
 $> git checkout newImage
 $> git commit
 
-> image
+<img src="task2_4.png" width="200" height="250"/>
 
 
 Ok! You are all ready to get branching. Once this window closes, make a new branch named bugFix and switch to that branch.
