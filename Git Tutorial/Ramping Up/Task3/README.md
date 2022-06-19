@@ -10,11 +10,11 @@ The tilde operator (optionally) takes in a trailing number that specifies the nu
 
 Let's specify a number of commits back with ~.
 
->img
+<img src="pics/task3_1.png" width="230" height="250"/>
 
 ```$> git checkout HEAD~4```
 
->img
+<img src="pics/task3_2.png" width="230" height="250"/>
 
 Boom! So concise -- relative refs are great.
 
@@ -28,10 +28,10 @@ git branch -f main HEAD~3
 
 moves (by force) the main branch to three parents behind HEAD.
 
->img
+<img src="pics/task3_3.png" width="230" height="250"/>
 
 ```$> git branch -f main HEAD~3```
 
->img
+<img src="pics/task3_4.png" width="230" height="250"/>
 
 There we go! Relative refs gave us a concise way to refer to C1 and branch forcing (-f) gave us a way to quickly move a branch to that location.
