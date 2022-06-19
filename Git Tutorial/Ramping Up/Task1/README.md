@@ -29,9 +29,7 @@ Detaching HEAD just means attaching it to a commit instead of a branch. This is 
 HEAD -> main -> C1
 
 <img src="pics/task1_3.png" width="220" height="250"/>
-```
-$> git checkout C1
-```
+``` $> git checkout C1 ```
 <img src="pics/task1_4.png" width="220" height="250"/>
 
 And now it's
