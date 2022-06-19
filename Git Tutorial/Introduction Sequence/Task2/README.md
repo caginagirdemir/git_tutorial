@@ -12,23 +12,24 @@ Burada newImage adında yeni bir dal oluşturacağız.
 
 <img src="pics/task2.png" width="220" height="250"/>
 
-$> git branch newImage
+```$> git branch newImage```
 
 <img src="pics/task2_2.png" width="220" height="250"/>
 
-$> git commit
+```$> git commit```
 
 <img src="pics/task2_3.png" width="220" height="250"/>
 
 Ama Hayır! main branch taşındı ama newImage branch taşınmadı! Bunun nedeni yeni branch üzerinde olmamamızdı, yıldız işareti main branch üzerindeydi.
 
-$> git checkout newImage (branch değişikliği.)
+```$> git checkout newImage``` (branch değişikliği.)
 
-$> git commit
+```$> git commit```
 
 <img src="pics/task2_4.png" width="220" height="250"/>
 
 
 Bu arada, burada bir kısayol var: eğer yeni bir şube oluşturmak ve aynı zamanda ona checkout olmak istiyorsanız kısaca şöyle yapabilirsiniz:
-$> git checkout -b [yourbranchname]
+
+```$> git checkout -b [yourbranchname]```
 
