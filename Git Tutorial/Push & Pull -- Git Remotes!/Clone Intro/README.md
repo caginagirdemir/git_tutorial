@@ -4,9 +4,9 @@ Remote repositories aren't actually that complicated. In today's world of cloud 
 
 That being said, remote repositories have a bunch of great properties:
 
-    First and foremost, remotes serve as a great backup! Local git repositories have the ability to restore files to a previous state (as you know), but all that information is stored locally. By having copies of your git repository on other computers, you can lose all your local data and still pick up where you left off.
+- First and foremost, remotes serve as a great backup! Local git repositories have the ability to restore files to a previous state (as you know), but all that information is stored locally. By having copies of your git repository on other computers, you can lose all your local data and still pick up where you left off.
 
-    More importantly, remotes make coding social! Now that a copy of your project is hosted elsewhere, your friends can contribute to your project (or pull in your latest changes) very easily.
+- More importantly, remotes make coding social! Now that a copy of your project is hosted elsewhere, your friends can contribute to your project (or pull in your latest changes) very easily.
 
 It's become very popular to use websites that visualize activity around remote repos (like GitHub), but remote repositories always serve as the underlying backbone for these tools. So it's important to understand them!
 
@@ -16,12 +16,12 @@ Technically, git clone in the real world is the command you'll use to create loc
 
 Lets start slow and just look at what a remote repository looks like (in our visualization).
 
->img
+<img src="pics/task1_1.png" width="220" height="250"/>
 
 ```
 $> git clone 
 ```
 
->img
+<img src="pics/task1_2.png" width="220" height="250"/>
 
 There it is! Now we have a remote repository of our project. It looks pretty similar except for some visual changes to make the distinction apparent -- in later levels you'll get to see how we share work across these repositories.
