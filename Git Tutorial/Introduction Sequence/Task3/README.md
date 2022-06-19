@@ -10,11 +10,11 @@ Here we have two branches; each has one commit that's unique. This means that ne
 
 We will merge the branch bugFix into main.
 
->img
+<img src="pics/task3_1.png" width="220" height="250"/>
 
 ``` $> git merge bugFix ```
 
->img
+<img src="pics/task3_2.png" width="220" height="250"/>
 
 Woah! See that? First of all, main now points to a commit that has two parents. If you follow the arrows up the commit tree from main, you will hit every commit along the way to the root. This means that main contains all the work in the repository now.
 
@@ -24,14 +24,14 @@ So here we see that the main branch color is blended into all the commits, but t
 
 Let's merge main into bugFix:
 
->img
+<img src="pics/task3_3.png" width="220" height="250"/>
 
 ```
 $> git checkout bugFix 
 $> git merge main 
 ```
 
->img
+<img src="pics/task3_4.png" width="220" height="250"/>
 
 Since bugFix was an ancestor of main, git didn't have to do any work; it simply just moved bugFix to the same commit main was attached to.
 
