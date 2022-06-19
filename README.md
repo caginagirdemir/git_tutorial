@@ -13,3 +13,7 @@
   - Task 2: Relative Refs (^)
   - Task 3: Relative Refs #2 (~)
   - Task 4: Reversing Changes in Git
+
+## Push & Pull -- Git Remotes! 
+- Time to share your 1's and 0's kids; coding just got social 
+  - Task 1: Clone Intro
