@@ -24,10 +24,14 @@ So here we see that the main branch color is blended into all the commits, but t
 
 Let's merge main into bugFix:
 
+>img
+
 ```
 $> git checkout bugFix 
 $> git merge main 
 ```
+
+>img
 
 Since bugFix was an ancestor of main, git didn't have to do any work; it simply just moved bugFix to the same commit main was attached to.
 
