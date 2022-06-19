@@ -1,16 +1,14 @@
 # Git Branches
 
-Branches in Git are incredibly lightweight as well. They are simply pointers to a specific commit -- nothing more. This is why many Git enthusiasts chant the mantra:
+Git'teki branchler inanılmaz derecede hafiftir. Onlar sadece belirli bir committin pointerını taşır - başka bir şey değil. Bir çok Git meraklısının şunu söylemesinin nedeni budur: 
 
-branch early, and branch often
+Branch early, and branch often
 
-Because there is no storage / memory overhead with making many branches, it's easier to logically divide up your work than have big beefy branches.
+Çok sayıda branch yapmak depolama/bellek yükü yapmadığından, büyük branchlar yerine onları mantıklı bir şekilde küçük branchlara bölmek daha kolaydır.
 
-When we start mixing branches and commits, we will see how these two features combine. For now though, just remember that a branch essentially says "I want to include the work of this commit and all parent commits."
+Branchları ve commitleri karşılaştırmaya başladığımızda, bu iki özelliğin nasıl birleştiğini göreceğiz.
 
-Let's see what branches look like in practice.
-
-Here we will create a new branch named newImage.
+Burada newImage adında yeni bir dal oluşturacağız.
 
 <img src="pics/task2.png" width="220" height="250"/>
 
@@ -22,9 +20,10 @@ $> git commit
 
 <img src="pics/task2_3.png" width="220" height="250"/>
 
-Oh no! The main branch moved but the newImage branch didn't! That's because we weren't "on" the new branch, which is why the asterisk (*) was on main.
+Ama Hayır! main branch taşındı ama newImage branch taşınmadı! Bunun nedeni yeni branch üzerinde olmamamızdı, yıldız işareti main branch üzerindeydi.
 
-$> git checkout newImage
+$> git checkout newImage (branch değişikliği.)
+
 $> git commit
 
 <img src="pics/task2_4.png" width="220" height="250"/>
