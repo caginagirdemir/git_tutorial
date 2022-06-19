@@ -8,7 +8,7 @@ Git ayrıca commitlerin ne zaman yapıldığını bir geçmişte tutar. Bu sebep
 
 Şimdilik commitlerin projelerin anlık görüntüleri olarak düşünebilirsiniz. Commitler çok hafiftir ve aralarında geçiş yapmak çok hızlıdır!
 
-<img src="task1_1.png" width="200" height="250"/> git commit <img src="task1_2.png" width="200" height="250"/>
+<img src="task1_1.png" width="200" height="250"/> $>git commit <img src="task1_2.png" width="200" height="250"/>
 
 İki adet commit var -- birincisi başlangıç commit'i C0, ve bundan sonraki bazı anlamlı değişikliklere sahip olabilecek diğer commit C1
 
