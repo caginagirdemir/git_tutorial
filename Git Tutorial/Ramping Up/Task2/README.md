@@ -24,17 +24,17 @@ main^^ is the grandparent (second-generation ancestor) of main
 
 Let's check out the commit above main here.
 
-<img src="pics/task2_1.png" width="220" height="250"/>
+<img src="pics/task2_1.png" width="230" height="250"/>
 
 ```$> git checkout main^```
 
-<img src="pics/task2_2.png" width="220" height="250"/>
+<img src="pics/task2_2.png" width="230" height="250"/>
 
 Boom! Done. Way easier than typing the commit hash.
 
 You can also reference HEAD as a relative ref. Let's use that a couple of times to move upwards in the commit tree.
 
-<img src="pics/task2_3.png" width="220" height="250"/>
+<img src="pics/task2_3.png" width="230" height="250"/>
 
 ```
 $> git checkout C3
@@ -43,7 +43,7 @@ $> git checkout main^
 $> git checkout main^
 ```
 
-<img src="pics/task2_4.png" width="220" height="250"/>
+<img src="pics/task2_4.png" width="230" height="250"/>
 
 Easy! We can travel backwards in time with HEAD^
 
