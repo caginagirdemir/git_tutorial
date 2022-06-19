@@ -12,11 +12,11 @@ We would like to move our work from bugFix directly onto the work from main. Tha
 
 Let's do that with the git rebase command.
 
-<img src="pics/task4_1.png" width="220" height="250"/>
+<img src="pics/task4_1.png" width="230" height="250"/>
 
 ```$> git rebase main```
 
-<img src="pics/task4_2.png" width="220" height="250"/>
+<img src="pics/task4_2.png" width="230" height="250"/>
 
 Awesome! Now the work from our bugFix branch is right on top of main and we have a nice linear sequence of commits.
 
@@ -26,11 +26,11 @@ The only problem is that main hasn't been updated either, let's do that now...
 
 Now we are checked out on the main branch. Let's go ahead and rebase onto bugFix...
 
-<img src="pics/task4_3.png" width="220" height="250"/>
+<img src="pics/task4_3.png" width="230" height="250"/>
 
 ```$> git rebase bugFix```
 
-<img src="pics/task4_4.png" width="220" height="250"/>
+<img src="pics/task4_4.png" width="230" height="250"/>
 
 
 There! Since main was an ancestor of bugFix, git simply moved the main branch reference forward in history.
