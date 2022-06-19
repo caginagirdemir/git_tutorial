@@ -8,21 +8,21 @@ git reset reverses changes by moving a branch reference backwards in time to an 
 
 Let's see what that looks like:
 
->img
+<img src="pics/task4_1.png" width="230" height="250"/>
 
 ```$> git reset HEAD~1```
 
->img
+<img src="pics/task4_2.png" width="230" height="250"/>
 
 Nice! Git moved the main branch reference back to C1; now our local repository is in a state as if C2 had never happened.
 
 reversed changes with others, we need to use git revert. Let's see it in action.
 
->img
+<img src="pics/task4_3.png" width="230" height="250"/>
 
 ```$> git revert HEAD```
 
->img
+<img src="pics/task4_4.png" width="230" height="250"/>
 
 Weird, a new commit plopped down below the commit we wanted to reverse. That's because this new commit C2' introduces changes -- it just happens to introduce changes that exactly reverses the commit of C2.
 
