@@ -12,4 +12,4 @@ Let's see what this looks like in practice. On the right we have a visualization
 
 Hit the button below to make a new commit.
 
-<img src="task1_1.png" width="250" height="250"/> <img src="task1_1.png" width="250" height="250"/>
+<img src="task1_1.png" width="200" height="250"/> <img src="task1_1.png" width="200" height="250"/>
