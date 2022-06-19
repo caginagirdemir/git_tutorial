@@ -10,7 +10,7 @@ HEAD always points to the most recent commit which is reflected in the working t
 
 Normally HEAD points to a branch name (like bugFix). When you commit, the status of bugFix is altered and this change is visible through HEAD.
 
->img
+<img src="pics/task1_1.png" width="220" height="250"/>
 
 ```
 $> git checkout C1
@@ -18,7 +18,7 @@ $> git checkout main
 $> git commit
 $> git checkout C2
 ```
->img
+<img src="pics/task1_2.png" width="220" height="250"/>
 
 See! HEAD was hiding underneath our main branch all along.
 
@@ -28,11 +28,11 @@ Detaching HEAD just means attaching it to a commit instead of a branch. This is 
 
 HEAD -> main -> C1
 
->img
+<img src="pics/task1_3.png" width="220" height="250"/>
 ```
 $> git checkout C1
 ```
->img
+<img src="pics/task1_4.png" width="220" height="250"/>
 
 And now it's
 
