@@ -14,7 +14,7 @@ What is o/?
 
 You may be wondering what the leading o/ is for on these remote branches. Well, remote branches also have a (required) naming convention -- they are displayed in the format of:
 
-\<remote name\> / \<branch name\>
+remote name / branch name
 
 Hence, if you look at a branch named o/main, the branch name is main and the name of the remote is o.
 
