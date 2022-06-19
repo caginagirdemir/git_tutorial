@@ -6,3 +6,10 @@
   - Task 2: Branching in Git
   - Task 3: Merging in Git
   - Task 4: Rebase Introduction
+
+## Ramping UP
+- The next serving of 100% git awesomes-ness. Hope you're hungry 
+  - Task 1: Detach yo' HEAD
+  - Task 2: Relative Refs (^)
+  - Task 3: Relative Refs #2 (~)
+  - Task 4: Reversing Changes in Git
