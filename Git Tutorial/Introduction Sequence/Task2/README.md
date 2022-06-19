@@ -29,6 +29,6 @@ $> git commit
 <img src="pics/task2_4.png" width="220" height="250"/>
 
 
-Ok! You are all ready to get branching. Once this window closes, make a new branch named bugFix and switch to that branch.
+Bu arada, burada bir kısayol var: eğer yeni bir şube oluşturmak ve aynı zamanda ona checkout olmak istiyorsanız kısaca şöyle yapabilirsiniz:
+$> git checkout -b [yourbranchname]
 
-By the way, here's a shortcut: if you want to create a new branch AND check it out at the same time, you can simply type git checkout -b [yourbranchname].
