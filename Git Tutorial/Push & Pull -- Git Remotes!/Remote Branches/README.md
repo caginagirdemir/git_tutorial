@@ -27,10 +27,12 @@ That's a lot to take in, so let's see all this in action.
 
 Lets check out a remote branch and see what happens.
 
->img
+<img src="pics/task2_1.png" width="220" height="250"/>
+```
 $> git checkout o/main
 $> git commit
->img
+```
+<img src="pics/task2_2.png" width="220" height="250"/>
 
 As you can see, git put us into detached HEAD mode and then did not update o/main when we added a new commit. This is because o/main will only update when the remote updates.
 
