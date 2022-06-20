@@ -1,8 +1,8 @@
 # Rebase Introduction
 
-Branchlar arasındaki işi birleştirmenin ikinci yolu, yeniden temellendirmedir.
+Branchlar arasındaki işi birleştirmenin ikinci yolu, yeniden temellendirmedir. Yeniden temellendirme, esasen bir dizi commit alır, onları "kopyalar" ve onları başka bir yere indirir.
 
-Rebasing essentially takes a set of commits, "copies" them, and plops them down somewhere else.
+Bu kulağa kafa karıştırıcı gelse de, yeniden düzenlemenin avantajı, güzel bir doğrusal commit dizisi yapmak için kullanılabilmesidir.
 
 While this sounds confusing, the advantage of rebasing is that it can be used to make a nice linear sequence of commits. The commit log / history of the repository will be a lot cleaner if only rebasing is allowed.
 
