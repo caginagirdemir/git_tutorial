@@ -57,17 +57,17 @@ $> git commit -am "commit message"
 ```
   
 </details>  
-  
+
 <details>
   <summary> Basic Concepts </summary>
 
 ## Basic Concepts
 
-**main**: default development branch
-**origin**: default upstream repo
-**HEAD**: current branch
-**HEAD^**: parent of HEAD
-**HEAD~4**: great-great grandparent of HEAD
+**main**\: default development branch
+**origin**\: default upstream repo
+**HEAD**\: current branch
+**HEAD\^**\: parent of HEAD
+**HEAD\~4**\: great\-great grandparent of HEAD
   
 </details> 
   
