@@ -9,8 +9,6 @@
 - Merging
 - Rebasing
 - Undo Things
-- Review you Repo
-- Synchronizing
 
 
 <details>
@@ -26,6 +24,9 @@ $> git config --global user.email "caginagirdemir@gmail.com"
   
 </details>  
 
+<details>
+  <summary> Start a Project </summary>
+
 ## Start a Project
 
 Create a local repo
@@ -38,6 +39,11 @@ Download a remote repo
 $> git clone <url>
 ```
 
+</details>  
+  
+<details>
+  <summary> Make a Change </summary>
+  
 ## Make a Change
 
 Add a file to staging (sahneye koyma)
@@ -58,6 +64,11 @@ Add all changes made to tracked files & commit
 ```
 $> git commit -am "commit message"
 ```
+  
+</details>  
+  
+<details>
+  <summary> Basic Concepts </summary>
 
 ## Basic Concepts
 
@@ -66,6 +77,11 @@ $> git commit -am "commit message"
 **HEAD**: current branch
 **HEAD^**: parent of HEAD
 **HEAD~4**: great-great grandparent of HEAD
+  
+</details> 
+  
+<details>
+  <summary> Branches </summary>
 
 ## Branches
 
@@ -110,6 +126,11 @@ Add a tag to current commit (often used for new version releases)
 ```
 $> git tag <tag-name>
 ```
+  
+</details> 
+  
+<details>
+  <summary> Merging </summary>
 
 ## Merging (combine branches with  history)
 
@@ -128,6 +149,11 @@ Rebase feature branch onto main (to incorporate new changes made to main). Preve
 $> git checkout feature
 $> git merge main
 ```
+  
+</details> 
+  
+<details>
+  <summary> Undo Things </summary>
 
 ## Undoing Things
 
@@ -154,3 +180,5 @@ Go back to a previous commit & delete all commits ahead of it (revert is safer).
 ```
 $> git reset <commit_ID>
 ```
+  
+</details> 
