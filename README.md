@@ -135,6 +135,11 @@ Merge branch a into branch b.
 $> git checkout b
 $> git merge a
 ```
+  
+</details> 
+  
+<details>
+  <summary> Rebasing </summary>
 
 ## Rebasing (combine branches wihtout history)
 
