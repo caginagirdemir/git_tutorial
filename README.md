@@ -152,6 +152,8 @@ $> git merge main
   
 </details> 
   
+
+  
 <details>
   <summary> Undo Things </summary>
 
@@ -181,4 +183,102 @@ Go back to a previous commit & delete all commits ahead of it (revert is safer).
 $> git reset <commit_ID>
 ```
   
+</details> 
+  
+<details>
+  <summary> Review your Repo </summary>
+  
+## Review your Repo
+
+List new or modified files not yer committed
+
+
+```
+$> git status
+```
+  
+List commit history, with respective IDs
+  
+```
+$> git log --oneline
+```
+  
+Show changes to unstaged files. For changes to staged files, add --cached option
+  
+```
+$> git diif
+```
+  
+Show changes between two commits
+  
+```
+$> git diff commit_1ID commit2_ID
+```
+  
+</details> 
+  
+<details>
+  <summary> Synchronizing </summary>
+
+## Synchronizing
+  
+Add a remote repo
+  
+```
+$> git remote add <alias> <url>
+``` 
+
+View all remote connections. Add -v flag to view urks.
+
+```
+$> git remote 
+``` 
+  
+Remove a connection
+ 
+```
+$> git remote remove <alias>
+``` 
+  
+Rename a connection
+  
+```
+$> git remote rename <old> <new>
+``` 
+  
+Fetch all branches from remote repo (no merge)
+  
+```
+$> git fetch <alias>
+``` 
+
+Fetch a specific branch
+  
+```
+$> git fetch <alias> <branch>
+``` 
+  
+Fetch the remote repo's copy of the current branch, then merge (fetch + merge)
+
+```
+$> git pull
+``` 
+Move (rebase) your local changes onto the top of new changes made to the remote repo (for clean, linear history)
+
+```
+$> git pull --rebase <alieas>
+``` 
+  
+Upload local content to remote repo
+  
+```
+$> git push
+``` 
+  
+Upload to a branch (can then pull request)
+  
+```
+$> git push <alias> <branch>
+``` 
+
 </details> 
