@@ -1,15 +1,6 @@
 # Git Tutorial
 
 ## Sections
-- Setup
-- Start a Project
-- Make a Change
-- Basic Concepts
-- Branches
-- Merging
-- Rebasing
-- Undo Things
-
 
 <details>
   <summary> Setup </summary>
