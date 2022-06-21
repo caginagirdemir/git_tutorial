@@ -1,20 +1,19 @@
 # Clone Intro
 
-Remote repositories aren't actually that complicated. In today's world of cloud computing it's easy to think that there's a lot of magic behind git remotes, but they are actually just copies of your repository on another computer. You can typically talk to this other computer through the Internet, which allows you to transfer commits back and forth.
+Uzak depolar aslında o kadar karmaşık değildir. Günümüzün bulut dünyasında git remotes hakkında bir çok büyü olduğunu düşünmek kolaydır, fakat onlar aslında repositylerinizin uzak bilsayardaki kopyalarıdır. Siz tipik bir şekilde internet aracılığıyla commitlerinizi ileri ve geri transfer etmenize izin veren  diğer bilgisayarla konuşabilirsiniz.
 
-That being said, remote repositories have a bunch of great properties:
+Söyleniyorki, remote repolar bir sürü harika özelliği vardır:
 
-- First and foremost, remotes serve as a great backup! Local git repositories have the ability to restore files to a previous state (as you know), but all that information is stored locally. By having copies of your git repository on other computers, you can lose all your local data and still pick up where you left off.
+- İlk ve hepsinden önemli, remoteler harika bir backup olarak hizmet eder! Local git repolar (bildiğiniz gibi) dosyaları önceki duruma restore edebilir, fakat tüm bu bilgiyi local bir şekilde saklar.Git repositorinizi diğer bilgisayara kopyalayarak,  tüm verilerinizi kaybedebilir ve yine de left off yaptığınız yerden pick up yapabilirsiniz.
 
-- More importantly, remotes make coding social! Now that a copy of your project is hosted elsewhere, your friends can contribute to your project (or pull in your latest changes) very easily.
+- Daha önemlisi, remoteler kodları sosyal yapar! Şimdi projenizin kopyasını başka bir yerde barındırarak, arkadaşlarınız projenize çok kolay bir şekilde (veya son değişikliklerinize pull in yaparak) katkı yapabilir
 
-It's become very popular to use websites that visualize activity around remote repos (like GitHub), but remote repositories always serve as the underlying backbone for these tools. So it's important to understand them!
+Remote repolar hakkındaki etkinliği görselleştiren websitelerini kullanmak oldukça popüler haldedir (GitHub gibi), fakat remote repolar her zaman böyle araçlar için belkemiği görevi görür. Bu yüzden onları anlamak önemlidir!
 
-Up until this point, Learn Git Branching has focused on teaching the basics of local repository work (branching, merging, rebasing, etc). However now that we want to learn about remote repository work, we need a command to set up the environment for those lessons. git clone will be that command.
+Bu noktaya kadar, Git Branching öğrenme local repository çalışmalarına (branching, merging, rebaseing, etc) temellerine odaklanmıştır. Ancak şimdi biz remote repository çalışmalarını öğrenmek istiyoruz, bu dersler için ortamı  kuracak komutlara ihtiyacımız var. Git clone bu komut olacak.
 
-Technically, git clone in the real world is the command you'll use to create local copies of remote repositories (from github for example). We use this command a bit differently in Learn Git Branching though -- git clone actually makes a remote repository out of your local one. Sure it's technically the opposite meaning of the real command, but it helps build the connection between cloning and remote repository work, so let's just run with it for now.
+Teknik olarak, git clone gerçek dünyada remote repositorylerin lokal kopyalarını oluşturmak için kullanacağımız komuttur (github dan örneğin). Git Branching öğrende bu komutu biraz farklı kullanıyoruz -- git klonu gerçekte local repodan uzakta remote bir repo oluşturur. Elbette teknik olarak gerçek komutun zıt anlamıdır, fakat bu cloning ve remote repository çalışması arasında bir bağlantı inşaa etmemize yardımcı olur, bu yüzden şimdilik onunla çalışalım.
 
-Lets start slow and just look at what a remote repository looks like (in our visualization).
 
 <img src="pics/task1_1.png" width="220" height="250"/>
 
@@ -24,4 +23,4 @@ $> git clone
 
 <img src="pics/task1_2.png" width="220" height="250"/>
 
-There it is! Now we have a remote repository of our project. It looks pretty similar except for some visual changes to make the distinction apparent -- in later levels you'll get to see how we share work across these repositories.
+İşte orada! Şimdi projemizin remote reposu var. Ayrıcımı belirgin hale getirmek için bazı görsel değişiklikler dışında oldukça benzer görünüyor -- sonraki seviyelerde bu repolarla nasıl paylaştığımızı göreceksiniz.
