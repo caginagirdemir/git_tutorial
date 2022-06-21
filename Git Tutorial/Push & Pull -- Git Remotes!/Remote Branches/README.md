@@ -1,10 +1,12 @@
 # Remote Branches
 
-Now that you've seen git clone in action, let's dive into what actually changed.
+Artık git klonu çalışırken gördüğümüze göre, gerçekte neyin değiştiğine geçelim.
 
-The first thing you may have noticed is that a new branch appeared in our local repository called o/main. This type of branch is called a remote branch; remote branches have special properties because they serve a unique purpose.
+Fark etmiş olabileceğiniz ilk şey, yerel repomuzda o/main adlı yeni bir dalın ortaya çıkmasıdır. Bu tip branch bir remote branch olarak isimlendirilir, remote branchler spesifik özelliklere sahiptir çünkü onlar benzersiz bir amaca hizmet eder. Fark etmiş olabileceğiniz ilk şey, yerel repomuzdaki o/main adlı yeni bir dalın ortaya çıkmasıdır.
 
-Remote branches reflect the state of remote repositories (since you last talked to those remote repositories). They help you understand the difference between your local work and what work is public -- a critical step to take before sharing your work with others.
+Remote branchler uzak repoların durumunu yansıtır (bu uzak repolar hakkında son konuştuğumuzdan beri). Onlar lokal çalışma ve halka açık çalışma arasındaki farkları anlamamıza yardımcı olur -- çalışmamızı paylaşmaya başlamadan önce dikkate almamız gereken kritik bir adım.
+
+Remote branchler, onları kontrol ettiğinizde, müstakil HEAD moduna geçmeniz gibi özel bir özelliğe sahiptir. Git bunu bilerek
 
 Remote branches have the special property that when you check them out, you are put into detached HEAD mode. Git does this on purpose because you can't work on these branches directly; you have to work elsewhere and then share your work with the remote (after which your remote branches will be updated).
 
