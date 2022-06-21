@@ -1,12 +1,29 @@
 # Git Tutorial
 
-## Setup
+## Sections
+- Setup
+- Start a Project
+- Make a Change
+- Basic Concepts
+- Branches
+- Merging
+- Rebasing
+- Undo Things
+- Review you Repo
+- Synchronizing
+
+
+<details>
+  <summary> ## Setup </summary>
 
 Set the name and email that will be attached to your commits and tags.
 ```
 $> git config --global user.name  "Cagin Agirdemir"
 $> git config --global user.email "caginagirdemir@gmail.com"
 ```
+  
+</details>  
+
 ## Start a Project
 
 Create a local repo
