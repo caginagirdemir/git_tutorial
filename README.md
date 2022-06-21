@@ -14,7 +14,9 @@
 
 
 <details>
-  <summary> ## Setup </summary>
+  <summary> Setup </summary>
+  
+## Setup
 
 Set the name and email that will be attached to your commits and tags.
 ```
