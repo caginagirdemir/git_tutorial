@@ -67,7 +67,7 @@ $> git commit -am "commit message"
 **origin**\: default upstream repo
 **HEAD**\: current branch
 **HEAD\^**\: parent of HEAD
-**HEAD\~4**\: great\-great grandparent of HEAD
+**HEAD\~\4**\: great\-great grandparent of HEAD
   
 </details> 
   
