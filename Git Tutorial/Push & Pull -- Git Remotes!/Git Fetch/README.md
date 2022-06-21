@@ -6,13 +6,13 @@ Bu derste, remote repodan nasıl veri getireleceğini öğreneceğiz -- bunun i�
 
 Remote repo gösterimlerimi güncellerken, remote branchlerin bu yeni gösterimi yansıtacak şekilde güncelleneceğini fark edeceksiniz. Bu, remote branchleri anlatan önceki derslerle bağlantılıdır.
 
-img
+<img src="pics/task3_1.png" width="220" height="250"/>
 
 ```
 $> git fetch
 ```
 
-img
+<img src="pics/task3_2.png" width="220" height="250"/>
 
 There we go! Commits C2 and C3 were downloaded to our local repository, and our remote branch o/main was updated to reflect this.
 
